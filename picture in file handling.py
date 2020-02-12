@@ -1,0 +1,6 @@
+f=open("roy.jpg","rb")
+temp=f.read()
+f.close()
+g=open("abc.txt","wb")
+g.write(temp)
+g.close()
